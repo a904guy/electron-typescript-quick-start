@@ -1,0 +1,11 @@
+{
+  "name": "electron-typescript-quick-start",
+  "dependencies": {},
+  "globalDependencies": {
+    "electron-builder": "registry:dt/electron-builder#2.0.2+20160316155526",
+    "electron-packager": "registry:dt/electron-packager#5.1.0+20160316155526",
+    "github-electron": "registry:dt/github-electron#1.2.5+20160624085047",
+    "github-electron/electron-prebuilt": "registry:dt/github-electron/electron-prebuilt#0.30.1+20160316155526",
+    "node": "registry:dt/node#6.0.0+20160709114037"
+  }
+}
