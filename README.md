@@ -24,7 +24,7 @@ git clone https://github.com/a904guy/electron-typescript-quick-start.git
 # Go into the repository
 cd electron-typescript-quick-start
 # Install dependencies and run the app
-npm install && typings -i && tsc -w 2>&1 &; npm start;
+npm install && npm run install && npm start;
 ```
 
 Learn more about Electron and its API in the [documentation](http://electron.atom.io/docs/latest).

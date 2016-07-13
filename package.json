@@ -4,11 +4,12 @@
   "description": "Clone to try a simple typescript based Electron boilerplate app.",
   "main": "main.js",
   "scripts": {
+    "install": "typings i && tsc -w 2>&1 &",
     "start": "electron ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electron/electron-quick-start.git"
+    "url": "git+https://github.com/a904guy/electron-typescript-quick-start.git"
   },
   "keywords": [
     "Electron",
@@ -21,7 +22,7 @@
   "author": "Andy Hawkins",
   "license": "CC-by-SA 4.0 INT",
   "bugs": {
-    "url": "https://github.com/electron/electron-quick-start/issues"
+    "url": "https://github.com/a904guy/electron-typescript-quick-start/issues"
   },
   "homepage": "https://github.com/electron/electron-quick-start#readme",
   "devDependencies": {
