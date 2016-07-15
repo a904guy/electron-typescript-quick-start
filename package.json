@@ -4,8 +4,10 @@
   "description": "Clone to try a simple typescript based Electron boilerplate app.",
   "main": "main.js",
   "scripts": {
-    "install": "typings i && tsc -w 2>&1 &",
-    "start": "electron ."
+    "install": "typings i && npm run watch",
+    "watch": "tsc -w 2>&1 &",
+    "start": "electron .",
+    "stop": "killall tsc"
   },
   "repository": {
     "type": "git",
