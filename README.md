@@ -9,8 +9,9 @@ This is a minimal Electron application based on the [Quick Start Guide](http://e
 A basic Electron application needs just these files:
 
 - `package.json` - Points to the app's main file and lists its details and dependencies.
-- `main.org.js` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
+- `main.ts` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
 - `index.html` - A web page to render. This is the app's **renderer process**.
+- `renderer.ts` - A Typescript file that is ran inside the **renderer process**.
 - `tsconfig.json` - Typescript compiler settings
 - `typings.json` - Definiteion Typings for Typescript
 
@@ -18,7 +19,7 @@ You can learn more about each of these components within the [Quick Start Guide]
 
 ## To Use
 
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+To clone and run this repository you'll need [Git](https://git-scm.com), [Typescript](https://www.typescriptlang.org/) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
 # Clone this repository
@@ -26,7 +27,10 @@ git clone https://github.com/a904guy/electron-typescript-quick-start.git
 # Go into the repository
 cd electron-typescript-quick-start
 # Install dependencies and run the app
-npm install && npm run install;
+npm install
+# Install TypeScript Typings dependencies
+npm install typescript typings -g
+npm run install;
 npm start;
 ```
 
