@@ -4,7 +4,7 @@
   "description": "Clone to try a simple typescript based Electron boilerplate app.",
   "main": "main.js",
   "scripts": {
-    "install": "npm install typescript typings -g && typings i",
+    "install": "typings i",
     "watch": "tsc -w 2>&1 &",
     "start": "electron .",
     "stop": "killall tsc"
